@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/gmall
+      username: root
+      password: 1234
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
